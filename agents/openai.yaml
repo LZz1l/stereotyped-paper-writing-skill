@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stereotyped Paper Writing"
+  short_description: "Structured English papers with user-led decisions"
+  default_prompt: "Use $stereotyped-paper-writing-skill to draft or revise my English research paper; ask me about consequential choices before proceeding."
