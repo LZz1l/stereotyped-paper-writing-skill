@@ -1,11 +1,11 @@
 ---
 name: stereotyped-paper-writing-skill
-description: Draft, revise, and review English research papers using a four-part abstract, four-paragraph funnel introduction, overview-first methods, and contribution-focused experiments. Use for structured academic manuscript writing and editing while keeping consequential choices with the user.
+description: Draft, revise, and review English research papers using the target venue's official structure and published writing examples, with a four-part abstract, a funnel introduction, overview-first methods, and contribution-focused experiments as defaults. Keep consequential choices with the user.
 ---
 
 # Stereotyped Paper Writing
 
-Write English research papers around one continuous argument: scientific problem → gap → method → evidence → meaning. Use the section structures below as the default writing framework. Let the user's current instructions, confirmed decisions, and actual venue requirements determine any adaptations. This skill provides a rhetorical structure, not canned claims or permission to conduct research.
+Write English research papers around one continuous argument: scientific problem → gap → method → evidence → meaning. Follow the required structure of the chosen conference or journal. Use the section structures below where the venue leaves room. Let the user's current instructions and confirmed decisions govern the remaining choices. This skill provides a rhetorical structure, not canned claims or permission to conduct research.
 
 ## Keep decisions with the user
 
@@ -20,6 +20,15 @@ Ask more when the answer changes the paper; do not ask merely to fill a quota.
 - Writing authorization alone does not authorize new experiments, source-code changes, publication, or external messages. Propose additional work and let the user decide.
 
 Communicate questions and progress in the user's preferred language; write manuscript prose in English unless the user requests otherwise. For a narrow edit, preserve the existing argument and unrelated text. Ask only for facts needed by that edit; missing paper-wide context must not block wording that is fully supported by the supplied material.
+
+## Check the target venue and study strong papers before writing
+
+1. **Confirm the submission target.** Ask which conference or journal the user plans to submit to if they have not said. Ask for the edition, track, or article type when it affects the structure. If the venue is undecided, offer a provisional format or example set and let the user choose how to proceed.
+2. **Check the official structure.** Before drafting a paper or substantially rewriting a section, consult the venue's official author instructions, call for papers, and template as applicable. Identify required sections, their order, abstract format, and relevant length limits. Separate mandatory rules from patterns observed in published papers. Apply the mandatory rules to the agreed submission target and ask about consequential choices the venue leaves open.
+3. **Search for and read strong examples.** Start with closely related papers from the target venue and article type. For conferences, prioritize Oral, Spotlight, and award papers whose distinction is confirmed by the official program, proceedings, or awards page. Use the venue's exact label. For journals, prioritize closely related papers with verified distinctions such as article awards or editor selections when available. If no relevant example has a verifiable distinction, ask whether to use closely matched published papers or broaden the search to another venue or article type. Describe each example's status accurately.
+4. **Learn the writing before drafting.** Read the relevant sections of the papers themselves. Compare section order, how authors introduce the problem and gap, how they present contributions, and how they connect claims to evidence. Use those observations to outline the requested sections, then write original prose grounded in the user's research. Keep links to the official requirements and examples in the working notes. Verify the venue and example set before reusing them for a different submission.
+
+For a narrow wording edit, reuse any relevant venue guidance and examples already established. Scope any fresh search to the section being drafted or substantively rewritten.
 
 ## Establish the argument before drafting
 
@@ -36,7 +45,7 @@ Use only supplied or verified results and sources. Never invent numerical gains,
 3. **Method and quantitative answer.** State the proposed method and its key mechanism, then report representative simulation or experimental results with real quantitative metrics. Include the comparison or conditions needed to interpret the numbers. Explain how the result answers the problem in sentence 2.
 4. **Value.** Explain the scientific significance or practical application enabled by that answer. End with what the work contributes.
 
-Default to four sentences, with sentence 3 connecting method and evidence. If a word limit, complex result, or theory-only paper calls for a different form, propose a specific adaptation and ask before changing this structure. When results are missing, request them and continue other supported sections; do not manufacture a quantitative abstract. Offer a result-free method or proposal abstract as an optional adaptation if useful, and wait for the user's choice; do not label it an experimentally validated final abstract.
+Default to four sentences, with sentence 3 connecting method and evidence. Follow the target venue's required abstract format and word limit. If the venue allows flexibility and a complex result or theory-only paper calls for a different form, propose a specific adaptation and ask the user. When results are missing, request them and continue other supported sections; do not manufacture a quantitative abstract. Offer a result-free method or proposal abstract as an optional adaptation if useful, and wait for the user's choice; do not label it an experimentally validated final abstract.
 
 ## Introduction: a four-paragraph funnel
 
@@ -45,7 +54,7 @@ Default to four sentences, with sentence 3 connecting method and evidence. If a 
 3. **Gap, challenges, and necessity.** Identify the precise remaining gap and the scientific or technical challenges behind it. Show why existing results leave this problem unresolved and why this paper is needed. Represent earlier work fairly.
 4. **Approach and contributions.** Explain how the method addresses that gap and state the core contributions. Connect each contribution to a problem and a supported result rather than listing implementation tasks.
 
-Keep four paragraphs by default. If a venue requires a separate contribution list, attach it to the fourth paragraph without creating a second storyline. Ask before adopting a materially different introduction structure.
+Keep four paragraphs by default when the target venue leaves the introduction structure open. Place a required contribution list where the venue specifies, or at the end of the fourth paragraph if it gives no placement. Ask before choosing a materially different structure where the venue leaves the choice open.
 
 ## Methods: the whole algorithm before its details
 
